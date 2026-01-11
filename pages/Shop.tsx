@@ -16,7 +16,7 @@ const Shop: React.FC = () => {
     'Fruits': 'Frutas',
     'Items': 'Itens',
     'Weapons': 'Armas',
-    'Armor': 'Armaduras',
+    'Armor': 'Outfits',
     'Accessories': 'Acessórios',
     'Baits': 'Iscas'
   };
