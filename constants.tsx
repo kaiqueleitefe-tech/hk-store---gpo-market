@@ -1,4 +1,5 @@
 import { GPOItem, Feedback } from './types';
+import soul from './assets/soul.jpg'
 import budda from './assets/buddha.jpg'
 import mochi from './assets/mochi.jpg';
 import ope from './assets/ope.jpg'
@@ -18,8 +19,30 @@ import yami from './assets/yami.jpg'
 import suna from './assets/suna.jpg'
 import yoru from './assets/yoru.jpg'
 import kage from './assets/kage.jpg'
-
-
+import dragon from './assets/dragon.jpg'
+import tori from './assets/tori.jpg'
+import ase from './assets/ase.jpg'
+import bigfitm from './assets/bigfitm.jpg'
+import bigfitf from './assets/bigfitf.jpg'
+import bighat from './assets/bighat.jpg'
+import sukecap from './assets/capsuk.jpg'
+import fishbait from './assets/fishbait.jpg'
+import icebornd from './assets/iceborn daggers.jpg'
+import icebordb from './assets/icebornblade.jpg'
+import icebordr from './assets/icebornrapier.jpg'
+import jfoice from './assets/jfoice.jpg'
+import katakurifit from './assets/katakurifit.jpg'
+import kikoku from './assets/kikoku.jpg'
+import legchest from './assets/legchest.jpg'
+import mcchest from './assets/mcchest.jpg'
+import mihalkhat from './assets/mihalk hat.jpg'
+import mihalkfit from './assets/mihalkfit.jpg'
+import rogerfit from './assets/roger fit.jpg'
+import rogerhar from './assets/roger hat.jpg'
+import sukenarm from './assets/sukenArm.jpg'
+import katakuriscraf from './assets/katakuriscraf.jpg'
+import rogerace from './assets/roger ace.jpg'
+import icekatana from './assets/icebornkatana.jpg'
 /**
  * GUIA DE EDIÇÃO PARA O USUÁRIO:
  * 
@@ -38,6 +61,18 @@ export const GPO_DATA: GPOItem[] = [
     SESSÃO: FRUTAS MÍTICAS (MYTHICAL FRUITS)
     ============================================================================
   */
+ {
+    id: 'soul',
+    name: 'Soru Soru no Mi (Soul)',
+    rarity: 'Mythical',
+    category: 'Fruits',
+    description: 'A lendária fruta da Big Mom. Manipule almas, crie Homies poderosos e roube a expectativa de vida dos seus inimigos.',
+    price: 75.00,
+    originalPrice: 110.00, // <--- PROMOÇÃO
+    stock: 2,
+    imageUrl: soul,
+    stats: ['Zeus', 'Prometheus']
+  },
    {
     id: 'ptero',
     name: 'Ryu Ryu no Mi (Pteranodon)',
@@ -45,7 +80,7 @@ export const GPO_DATA: GPOItem[] = [
     category: 'Fruits',
     description: 'Transforme-se em um Pteranodon gigante. Mobilidade aérea e dano massivo.',
     price: 25.00,
-    originalPrice: 280.00, // <--- PROMOÇÃO
+    originalPrice: 40.00, // <--- PROMOÇÃO
     stock: 2,
     imageUrl: ptero,
     stats: ['Flight Boost', 'Beak Dive', 'Ancient Roar']
@@ -57,7 +92,7 @@ export const GPO_DATA: GPOItem[] = [
     category: 'Fruits',
     description: 'Special Paramecia. Permite o controle absoluto dentro do ROOM.',
     price: 20.00,
-    originalPrice: 150.00, // <--- REMOVA ESTA LINHA PARA TIRAR DA PROMOÇÃO
+    originalPrice: 38.00, // <--- REMOVA ESTA LINHA PARA TIRAR DA PROMOÇÃO
     stock: 5,               // <--- ALTERE O ESTOQUE AQUI
     imageUrl: ope,
     stats: ['Tactical ROOM', 'Gamma Knife', 'Counter Shock', 'Amputate']
@@ -79,10 +114,10 @@ export const GPO_DATA: GPOItem[] = [
     rarity: 'Mythical',
     category: 'Fruits',
     description: 'Mythical Zoan. Torne-se o Dragão Azure e controle os elementos.',
-    price: 170.00,
-    originalPrice: 195.00, // <--- EM PROMOÇÃO
+    price: 150.00,
+    originalPrice: 200.00, // <--- EM PROMOÇÃO
     stock: 0,
-    imageUrl: "https://static.wikia.nocookie.net/onepiece/images/c/c4/Uo_Uo_no_Mi_Model_Seiryu_Infobox.png",
+    imageUrl: dragon,
     stats: ['Full Dragon Morph', 'Bolo Breath', 'Dragon Twister']
   },
   {
@@ -102,19 +137,19 @@ export const GPO_DATA: GPOItem[] = [
     rarity: 'Mythical',
     category: 'Fruits',
     description: 'Mythical Zoan. Regeneração passiva extrema e chamas azuis.',
-    price: 230.00,
+    price: 30.00,
     stock: 1,
-    imageUrl: "https://static.wikia.nocookie.net/onepiece/images/0/0b/Tori_Tori_no_Mi_Model_Phoenix_Infobox.png",
+    imageUrl: tori,
     stats: ['Blue Flames', 'Healing Pulse', 'Phoenix Form']
   },
   {
     id: 'Budhha',
-    name: 'Uo Uo no Mi (Budhha)',
+    name: 'Hito Hito no Mi (Budhha)',
     rarity: 'Mythical',
     category: 'Fruits',
     description: 'Mythical Zoan.',
-    price: 15.00,
-    originalPrice: 195.00, // <--- EM PROMOÇÃO
+    price: 20.00,
+    originalPrice: 30.00, // <--- EM PROMOÇÃO
     stock: 3,
     imageUrl: budda,
     stats: ['Palm Strike', 'Judgement Impact', 'Buddha Transformation']
@@ -155,7 +190,7 @@ export const GPO_DATA: GPOItem[] = [
     category: 'Fruits',
     description: 'Logia. Controle as chamas e incendeie o campo de batalha.',
     price: 8.00,
-    originalPrice: 45.00, // PROMOÇÃO
+    originalPrice: 15.00, // PROMOÇÃO
     stock: 12,
     imageUrl: mera,
     stats: ['Hiken (Fire Fist)', 'Fire Pillar', 'Fire Fly', 'Enkai']
@@ -211,7 +246,7 @@ export const GPO_DATA: GPOItem[] = [
     category: 'Fruits',
     description: 'Paramecia. Manipule fios afiados e controle seus inimigos como marionetes.',
     price: 5.00,
-    originalPrice: 35.00, // PROMOÇÃO
+    originalPrice: 10.00, // PROMOÇÃO
     stock: 9,
     imageUrl: ito,
     stats: ['Birdcage', 'Overheat', 'Parasite Strings']
@@ -275,13 +310,25 @@ export const GPO_DATA: GPOItem[] = [
     ============================================================================
   */
   {
+    id: 'rogerace',
+    name: 'Roger ace (Ace)',
+    rarity: 'Mythical',
+    category: 'Weapons',
+    description: 'A espada negra lendária do Mihawk. O auge do poder.',
+    price: 40.00,
+    originalPrice: 60.00, // <--- EM PROMOÇÃO
+    stock: 1,
+    imageUrl: rogerace,
+    stats: ['Final Retort', 'Laughing Counter', 'Overflow', 'Divine Departure']
+  },
+  {
     id: 'dark-blade',
     name: 'Dark Blade (Yoru)',
     rarity: 'Mythical',
     category: 'Weapons',
     description: 'A espada negra lendária do Mihawk. O auge do poder.',
-    price: 299.00,
-    originalPrice: 350.00, // <--- EM PROMOÇÃO
+    price: 50.00,
+    originalPrice: 90.00, // <--- EM PROMOÇÃO
     stock: 1,
     imageUrl: yoru,
     stats: ['World\'s Strongest Slash', 'Night Sky', 'Grand Slasher']
@@ -292,9 +339,9 @@ export const GPO_DATA: GPOItem[] = [
     rarity: 'Mythical',
     category: 'Weapons',
     description: 'A espada amaldiçoada de Trafalgar Law.',
-    price: 250.00,
-    stock: 1,
-    imageUrl: "https://i.pinimg.com/originals/11/48/4d/11484d33a1f1076b668f185c63016462.png",
+    price: 0,
+    stock: 0,
+    imageUrl: kikoku,
     stats: ['Room Compatibility', 'High Range Slash', 'Gamma Slash']
   },
   {
@@ -305,7 +352,7 @@ export const GPO_DATA: GPOItem[] = [
     description: 'A foice aterrorizante do Jester. Dano massivo em área.',
     price: 120.00,
     stock: 2,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/d/de/Demon_Jester%27s_Scythe.png",
+    imageUrl: jfoice,
     stats: ['Soul Harvest', 'Jester\'s Nightmare', 'Death Spin']
   },
 
@@ -322,7 +369,7 @@ export const GPO_DATA: GPOItem[] = [
     price: 75.00,
     originalPrice: 95.00, // <--- EM PROMOÇÃO
     stock: 3,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/6/6f/Iceborn_Katana.png",
+    imageUrl: icekatana,
     stats: ['Frost Slash', 'Winter\'s Dance']
   },
   {
@@ -342,7 +389,7 @@ export const GPO_DATA: GPOItem[] = [
     category: 'Weapons',
     price: 85.00,
     stock: 2,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/b/bd/Iceborn_Blade.png",
+    imageUrl: icebordb,
     stats: ['Ice Spikes', 'Glacial Slam']
   },
   {
@@ -352,7 +399,7 @@ export const GPO_DATA: GPOItem[] = [
     category: 'Weapons',
     price: 85.00,
     stock: 5,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/b/b8/Iceborn_Rapier.png",
+    imageUrl: icebordr,
     stats: ['Piercing Cold', 'Flash Freeze']
   },
   {
@@ -362,7 +409,7 @@ export const GPO_DATA: GPOItem[] = [
     category: 'Weapons',
     price: 75.00,
     stock: 6,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/4/4b/Iceborn_Daggers.png",
+    imageUrl: icebornd,
     stats: ['Cold Slice', 'Dual Frost']
   },
 
@@ -376,9 +423,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Roger's Outfit",
     rarity: 'Legendary',
     category: 'Armor',
-    price: 150.00,
+    price: 20.00,
     stock: 3,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/2/29/Roger%27s_Outfit.png",
+    imageUrl: rogerfit,
     stats: ['+350 HP', '+50 Stamina', '+5 Stamina Regen']
   },
   {
@@ -386,9 +433,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Big Mama's Outfit (Male)",
     rarity: 'Legendary',
     category: 'Armor',
-    price: 135.00,
+    price: 30.00,
     stock: 2,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/b/be/Big_Mama%27s_Outfit_Male.png",
+    imageUrl: bigfitm,
     stats: ['+350 HP', '+3.5 HP Regen']
   },
   {
@@ -396,9 +443,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Big Mama's Outfit (Female)",
     rarity: 'Legendary',
     category: 'Armor',
-    price: 125.00,
+    price: 30.00,
     stock: 2,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/5/52/Big_Mama%27s_Outfit_Female.png",
+    imageUrl: bigfitf,
     stats: ['+275 HP', '+4.5 Stamina Regen']
   },
   {
@@ -406,9 +453,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Mochi Emperor's Outfit",
     rarity: 'Legendary',
     category: 'Armor',
-    price: 140.00,
-    stock: 3,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/8/87/Mochi_Emperor_Outfit.png",
+    price: 20.00,
+    stock: 1,
+    imageUrl: katakurifit,
     stats: ['+225 HP', '+5% Sword DMG']
   },
   {
@@ -416,9 +463,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Hawk Eye's Outfit",
     rarity: 'Legendary',
     category: 'Armor',
-    price: 130.00,
+    price: 15.00,
     stock: 2,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/b/b2/Hawk_Eye_Outfit.png",
+    imageUrl: mihalkfit,
     stats: ['+150 HP', '+5% Sword DMG']
   },
   {
@@ -426,9 +473,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Sunken Armor",
     rarity: 'Legendary',
     category: 'Armor',
-    price: 110.00,
+    price: 15.00,
     stock: 1,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/0/07/Sunken_Armor.png",
+    imageUrl: sukenarm,
     stats: ['+90 HP', '+2 HP Regen']
   },
 
@@ -442,9 +489,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Hawk Eye's Hat",
     rarity: 'Legendary',
     category: 'Accessories',
-    price: 95.00,
+    price: 15.00,
     stock: 5,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/8/87/Hawk_Eye_Hat.png",
+    imageUrl: mihalkhat,
     stats: ['+10% Sword DMG Multiplier']
   },
   {
@@ -452,9 +499,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Mochi Emperor's Scarf",
     rarity: 'Legendary',
     category: 'Accessories',
-    price: 110.00,
+    price: 20.00,
     stock: 4,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/3/3b/Mochi_Emperor_Scarf.png",
+    imageUrl: katakuriscraf,
     stats: ['+70 HP', '+3% Sword DMG']
   },
   {
@@ -462,9 +509,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Roger's Hat",
     rarity: 'Legendary',
     category: 'Accessories',
-    price: 75.00,
+    price: 15.00,
     stock: 6,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/5/5c/Roger%27s_Hat.png",
+    imageUrl: rogerhar,
     stats: ['+90 HP', '+3 HP Regen']
   },
   {
@@ -472,9 +519,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Sunken Helmet",
     rarity: 'Legendary',
     category: 'Accessories',
-    price: 85.00,
+    price: 15.00,
     stock: 3,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/a/a2/Sunken_Helmet.png",
+    imageUrl: sukecap,
     stats: ['+4 Stamina Regen']
   },
   {
@@ -482,9 +529,9 @@ export const GPO_DATA: GPOItem[] = [
     name: "Big Mama's Hat",
     rarity: 'Epic',
     category: 'Accessories',
-    price: 40.00,
+    price: 10.00,
     stock: 10,
-    imageUrl: "https://static.wikia.nocookie.net/grand-piece-online/images/8/8e/Big_Mama%27s_Hat.png",
+    imageUrl: bighat,
     stats: ['+85 HP', '+2.5 HP Regen']
   },
 
@@ -494,17 +541,59 @@ export const GPO_DATA: GPOItem[] = [
     ============================================================================
   */
   { 
-    id: 'ase', 
+    id: 'mcchest', 
+    name: 'Mithical Chest', 
+    rarity: 'Mythical', 
+    category: 'Items', 
+    price: 60.00,
+    originalPrice: 70.00, // <--- EM PROMOÇÃO
+    description: 'Bau De Fruta aleatoria Mitica',
+    stock: 2,
+    imageUrl: mcchest,
+    stats: ['1 Fruta Mitica Garantida']
+  },
+   { 
+    id: 'LegChets', 
+    name: 'Legendary Chest', 
+    rarity: 'Legendary', 
+    category: 'Items', 
+    price: 10.00,
+    originalPrice: 18.00, // <--- EM PROMOÇÃO
+    description: 'Bau De Fruta aleatoria Lendaria',
+    stock: 2,
+    imageUrl: legchest,
+    stats: ['1 Fruta Lendaria Garantida']
+  },
+  { 
+    id: 'ase ', 
     name: 'All Seeing Eye', 
     rarity: 'Mythical', 
     category: 'Items', 
     price: 390.00,
     originalPrice: 450.00, // <--- EM PROMOÇÃO
     description: '2x Logia Rate e localização exata de frutas no mapa.',
-    stock: 2,
-    imageUrl: "https://images.vexels.com/media/users/3/157931/isolated/preview/604a0cadf873270034a0a09d663b6526-olho-iluminado-egipcio.png",
+    stock: 0,
+    imageUrl: ase,
     stats: ['2x Fruit Rate', 'ESP Fruits']
+  },
+  /* 
+    ============================================================================
+    SESSÃO: ISCAS (BAITS)
+    ============================================================================
+  */
+  {
+    id: 'legendary-bait',
+    name: 'Isca de Peixe Lendária',
+    rarity: 'Legendary',
+    category: 'Baits',
+    description: 'Aumenta drasticamente as chances de pescar frutas Lendárias e Míticas Com a DF ROD.',
+    price: 3.90,
+    originalPrice: 5.00,
+    stock: 50,
+    imageUrl: fishbait,
+    stats: ['+50% Legendary Chance', 'High Tier Loot']
   }
+  
 ];
 
 export const FEEDBACK_DATA: Feedback[] = [
